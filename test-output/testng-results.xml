@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19845" started-at="2022-12-21T22:08:09 IST" finished-at="2022-12-21T22:08:29 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19845" started-at="2022-12-21T22:08:09 IST" finished-at="2022-12-21T22:08:29 IST">
+      <class name="testcases.Flight_testcases">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.Flight_testcases@6043cd28]" name="beforeSuite" is-config="true" duration-ms="211" started-at="2022-12-21T22:08:09 IST" finished-at="2022-12-21T22:08:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.Flight_testcases@6043cd28]" name="beforeTest" is-config="true" duration-ms="5288" started-at="2022-12-21T22:08:09 IST" finished-at="2022-12-21T22:08:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginvalid()[pri:0, instance:testcases.Flight_testcases@6043cd28]" name="loginvalid" duration-ms="7470" started-at="2022-12-21T22:08:15 IST" finished-at="2022-12-21T22:08:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginvalid -->
+        <test-method status="PASS" signature="testcloser(org.testng.ITestResult)[pri:0, instance:testcases.Flight_testcases@6043cd28]" name="testcloser" is-config="true" duration-ms="1" started-at="2022-12-21T22:08:22 IST" finished-at="2022-12-21T22:08:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginvalid status=SUCCESS method=Flight_testcases.loginvalid()[pri:0, instance:testcases.Flight_testcases@6043cd28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcloser -->
+        <test-method status="PASS" signature="bookingvalid()[pri:1, instance:testcases.Flight_testcases@6043cd28]" name="bookingvalid" duration-ms="4997" started-at="2022-12-21T22:08:22 IST" finished-at="2022-12-21T22:08:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookingvalid -->
+        <test-method status="PASS" signature="testcloser(org.testng.ITestResult)[pri:0, instance:testcases.Flight_testcases@6043cd28]" name="testcloser" is-config="true" duration-ms="1" started-at="2022-12-21T22:08:27 IST" finished-at="2022-12-21T22:08:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=bookingvalid status=SUCCESS method=Flight_testcases.bookingvalid()[pri:1, instance:testcases.Flight_testcases@6043cd28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcloser -->
+        <test-method status="PASS" signature="datevalid()[pri:2, instance:testcases.Flight_testcases@6043cd28]" name="datevalid" duration-ms="1937" started-at="2022-12-21T22:08:27 IST" finished-at="2022-12-21T22:08:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datevalid -->
+        <test-method status="PASS" signature="testcloser(org.testng.ITestResult)[pri:0, instance:testcases.Flight_testcases@6043cd28]" name="testcloser" is-config="true" duration-ms="1" started-at="2022-12-21T22:08:29 IST" finished-at="2022-12-21T22:08:29 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=datevalid status=SUCCESS method=Flight_testcases.datevalid()[pri:2, instance:testcases.Flight_testcases@6043cd28] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcloser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.Flight_testcases@6043cd28]" name="afterTest" is-config="true" duration-ms="122" started-at="2022-12-21T22:08:29 IST" finished-at="2022-12-21T22:08:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.Flight_testcases@6043cd28]" name="afterSuite" is-config="true" duration-ms="263" started-at="2022-12-21T22:08:29 IST" finished-at="2022-12-21T22:08:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.Flight_testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
